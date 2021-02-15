@@ -1,5 +1,35 @@
 @import url('components/cards.css');
 @import url('components/navbar.css');
+
 @import url('pages/map.css');
 
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  #map {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #map {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #map {
+    display: block;
+  }
+}
 
