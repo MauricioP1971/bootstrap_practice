@@ -1,0 +1,13 @@
+.navbar-minimalist img {
+  width: 70px;
+  height: 70px;
+}
+
+.navbar-minimalist {
+  height: 100px;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
